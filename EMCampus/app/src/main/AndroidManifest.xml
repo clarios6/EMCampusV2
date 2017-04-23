@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sokka.emcampus">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".CSU_Fullerton" />
+        <activity android:name=".CSU_LongBeach" />
+        <activity
+            android:name=".CSU_MontereyBay"
+            android:label="@string/title_activity_csu__monterey_bay"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".CSU_Northridge" />
+        <activity android:name=".Cal_Poly_Pomona" />
+        <activity android:name=".CSU_Sacramento" />
+        <activity android:name=".CSU_SanDiego" />
+        <activity android:name=".CSU_San_Marcos" />
+        <activity android:name=".CSU_San_Bernardino" />
+        <activity android:name=".CSU_San_Francisco" />
+        <activity android:name=".Cal_Poly_SLO" />
+        <activity android:name=".CSU_Sonoma" />
+        <activity android:name=".CSU_Stanislaus" />
+        <activity android:name=".CSU_Bakersfield" />
+        <activity android:name=".CSU_CalMaritime" />
+        <activity android:name=".CSU_ChannelIslands" />
+        <activity android:name=".CSU_Chico" />
+        <activity android:name=".CSU_DominguezHills" />
+        <activity android:name=".CSU_EastBay" />
+        <activity android:name=".CSU_Fresno" />
+        <activity android:name=".CSU_LosAngeles" />
+        <activity android:name=".CSU_SanJose" />
+        <activity android:name=".Humboldt_State"></activity>
+    </application>
+
+</manifest>

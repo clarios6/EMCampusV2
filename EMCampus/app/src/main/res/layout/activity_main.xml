@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/activity_main"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+
+    android:paddingBottom="@dimen/activity_vertical_margin"
+
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+
+    android:paddingRight="@dimen/activity_horizontal_margin"
+
+    android:paddingTop="@dimen/activity_vertical_margin"
+
+    tools:context="com.example.davet.beach1.MainActivity">
+
+
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent">
+
+
+
+        <TableLayout
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content">
+
+
+
+            <TableRow
+
+                android:layout_width="match_parent"
+
+                android:layout_height="match_parent" >
+
+
+
+                <Button
+
+                    android:text="CSU Bakersfield"
+
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+
+                    android:id="@+id/Bakersfield" />
+
+
+
+                <Button
+
+                    android:text="CSU Cal Maritime"
+
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+
+                    android:id="@+id/CalMaritime" />
+
+            </TableRow>
+
+
+
+            <TableRow
+
+                android:layout_width="match_parent"
+
+                android:layout_height="match_parent" >
+
+
+
+                <Button
+
+                    android:text="CSU Channel Island"
+
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+
+                    android:id="@+id/ChannelIslands" />
+
+
+
+                <Button
+
+                    android:text="CSU Chico"
+
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+
+                    android:id="@+id/Chico" />
+
+            </TableRow>
+
+
+
+            <TableRow
+
+                android:layout_width="match_parent"
+
+                android:layout_height="match_parent" >
+
+
+
+                <Button
+
+                    android:text="CSU Dominguez Hills"
+
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+
+                    android:id="@+id/DominguezHills" />
+
+
+
+                <Button
+
+                    android:text="CSU East Bay"
+
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+
+                    android:id="@+id/EastBay" />
+
+            </TableRow>
+
+
+
+            <TableRow
+
+                android:layout_width="match_parent"
+
+                android:layout_height="match_parent" >
+
+
+
+                <Button
+
+                    android:text="CSU Fresno"
+
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+
+                    android:id="@+id/Fresno" />
+
+
+
+                <Button
+
+                    android:text="CSU Fullerton"
+
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+
+                    android:id="@+id/Fullerton" />
+
+            </TableRow>
+
+
+
+            <TableRow
+
+                android:layout_width="match_parent"
+
+                android:layout_height="match_parent" >
+
+
+
+                <Button
+
+                    android:text="CSU Humboldt"
+
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+
+                    android:id="@+id/Humboldt" />
+
+
+
+                <Button
+
+                    android:text="CSU Long Beach"
+
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+
+                    android:id="@+id/LongBeach" />
+
+            </TableRow>
+
+
+
+            <TableRow
+
+                android:layout_width="match_parent"
+
+                android:layout_height="match_parent" >
+
+
+
+                <Button
+
+                    android:text="CSU Los Angeles"
+
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+
+                    android:id="@+id/LosAngeles" />
+
+
+
+                <Button
+
+                    android:text="CSU Montery Bay"
+
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+
+                    android:id="@+id/MonteryBay" />
+
+            </TableRow>
+
+
+
+            <TableRow
+
+                android:layout_width="match_parent"
+
+                android:layout_height="match_parent" >
+
+
+
+                <Button
+
+                    android:text="CSU Northridge"
+
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+
+                    android:id="@+id/Northridge" />
+
+
+
+                <Button
+
+                    android:text="CSU Pomona"
+
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+
+                    android:id="@+id/Pomona" />
+
+            </TableRow>
+
+
+
+            <TableRow
+
+                android:layout_width="match_parent"
+
+                android:layout_height="match_parent" >
+
+
+
+                <Button
+
+                    android:text="CSU Sacramento"
+
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+
+                    android:id="@+id/Sacramento" />
+
+
+
+                <Button
+
+                    android:text="CSU San Bernardino"
+
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+
+                    android:id="@+id/SanBernardino" />
+
+            </TableRow>
+
+
+
+            <TableRow
+
+                android:layout_width="match_parent"
+
+                android:layout_height="match_parent" >
+
+
+
+                <Button
+
+                    android:text="CSU San Diego"
+
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+
+                    android:id="@+id/SanDiego" />
+
+
+
+                <Button
+
+                    android:text="CSU San Francisco"
+
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+
+                    android:id="@+id/SanFrancisco" />
+
+
+
+            </TableRow>
+
+
+
+            <TableRow
+
+                android:layout_width="match_parent"
+
+                android:layout_height="match_parent" >
+
+
+
+                <Button
+
+                    android:text="CSU San Jose"
+
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+
+                    android:id="@+id/SanJose" />
+
+
+
+                <Button
+
+                    android:text="CSU San Luis Obispo"
+
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+
+                    android:id="@+id/SanLuisObispo" />
+
+            </TableRow>
+
+
+
+            <TableRow
+
+                android:layout_width="match_parent"
+
+                android:layout_height="match_parent" >
+
+
+
+                <Button
+
+                    android:text="CSU San Marcos"
+
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+
+                    android:id="@+id/SanMarcos" />
+
+
+
+                <Button
+
+                    android:text="CSU Sonoma"
+
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+
+                    android:id="@+id/Sonoma" />
+
+
+
+            </TableRow>
+
+
+
+            <TableRow
+
+                android:layout_width="match_parent"
+
+                android:layout_height="match_parent" >
+
+
+
+                <Button
+
+                    android:text="CSU Stanislaus"
+
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+
+                    android:id="@+id/Stanislaus" />
+
+            </TableRow>
+
+
+
+        </TableLayout>
+
+    </ScrollView>
+
+
+
+</RelativeLayout>
